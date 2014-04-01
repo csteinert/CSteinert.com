@@ -169,15 +169,16 @@ blockquote {
   position: relative;
 }
   .speaking blockquote:before {
-    content: "";
+    content: "{";
     width: 0;
     height: 0;
-    border-bottom: 2em solid #fff;
-    border-left: 2em solid transparent;
     display: block;
     position: absolute;
-    top: -2em;
-    left: 0
+    top: -.15em;
+    left: .075em;
+    font-size: 7em;
+    font-weight: bold;
+    color: #FF9282;
   }
 
 blockquote h4 {

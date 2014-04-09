@@ -143,6 +143,7 @@ main {
   list-style-type: none;
 }
   .portfolio li { padding: 1em 0 2em; }
+  .portfolio img { max-width: 100%; }
 
 #speaking {
   background-color: rgba(173, 232, 192, 0.5);

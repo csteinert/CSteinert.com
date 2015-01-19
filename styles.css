@@ -129,6 +129,7 @@ main {
   margin: 1em auto;
   line-height: 3em;
   padding: 0;
+  text-align: center;
 }
   .social-icons li {
     display: inline-block;

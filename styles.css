@@ -53,6 +53,7 @@
 }
 
 body {
+  background: url('images/pattern.png') 50% 50%;
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 20px;
   line-height: 25px;
@@ -107,18 +108,18 @@ a.breadcrumb {
   }
 
 header {
-  background-color: #FF9282;
+  background-color: rgba(255,146,130,.5);
 }
   header h1 { color: #fff; }
   header p { color: rgba(255,255,255,.75); }
   header a { color: #fff; }
 
-main {
+#portfolio {
   background-color: #f1f1f1;
 }
 
 #communities {
-  background-color: #3D7999;
+  background-color: rgba(61,121,153,1);
   color: #fff;
 }
   #communities a { color: #fff; }

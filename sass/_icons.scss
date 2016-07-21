@@ -1,0 +1,46 @@
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'social-icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon::after {
+  border: 11px solid white;
+  content: "";
+  display: block;
+  width: 97px;
+  height: 97px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.icon::before {
+  position: absolute;
+  top: .55em;
+  left: .5em;
+}
+
+.icon-github::before {
+  content: "\e600";
+}
+
+.icon-twitter::before {
+  content: "\e602";
+}
+
+.icon-linkedin::before {
+  content: "\e603";
+  top: .45em;
+  left: .53em;
+}
